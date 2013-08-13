@@ -1,8 +1,12 @@
 <%= form_for @user, html: { autocomplete: :off } do |f| %>
   <p>
-    <%= f.label :name %>
-    <%= f.text_field :name %>
-    <%= f.label :age %>
+    <%= f.label :user_name %>
+    <%= f.text_field :user_name %><br>
+    <%= f.label :email%>
+    <%= f.email_field :email %><br>
+    <%= f.label :born_on %>
+    <%= f.date_field :born_on %><br>
     <%= f.submit %>
   </p>
+
 <% end %>

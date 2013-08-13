@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
 	def index
+		@users = User.all
 	end
 
   # Get /users/:id - display detail for user <id>
@@ -17,6 +18,11 @@ class UsersController < ApplicationController
 
   def create
     @user = User.create
+
+    redirect_to root_path
   end
-  
+
+  def destroy
+  end
+
 end
