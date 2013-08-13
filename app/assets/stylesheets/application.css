@@ -11,7 +11,23 @@
  *= require_self
  *= require bootstrap
  *= require_tree .
- 
+
  */
+html {
+	background-color: lightgrey;
+}
+#top_bar {
+	height: 55px;
+	background-color: black;
+	text-align: right;
+}
+nav li {
+	display: inline;
+}
+nav li a {
+	font-size: 20px;
+	color: red;
+	margin: 10px;
+}
 
 
