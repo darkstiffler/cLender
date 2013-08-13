@@ -5,6 +5,7 @@ class User
   has_many :cars
 
   field :user_name, type: String
+  field :website, type: String
   field :born_on, type: Date
   field :email, type: String
   field :location, type: String
