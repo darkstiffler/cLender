@@ -6,5 +6,6 @@ class Car
   field :milage, type: Integer
 
   belongs_to :car_make
+  belongs_to :user
 
 end
