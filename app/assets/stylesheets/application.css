@@ -22,12 +22,18 @@ html {
 	text-align: right;
 }
 nav li {
+	position: relative;
+	top: 10px;
 	display: inline;
 }
 nav li a {
 	font-size: 20px;
 	color: red;
 	margin: 10px;
+}
+nav li a:hover {
+	text-decoration: none;
+	color: lightgrey;
 }
 
 
