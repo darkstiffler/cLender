@@ -17,6 +17,7 @@ html {
 	background-color: lightgrey;
 }
 #top_bar {
+	box-shadow: 5px 5px 10px black;
 	height: 55px;
 	background-color: black;
 	text-align: right;
@@ -30,10 +31,12 @@ nav li a {
 	font-size: 20px;
 	color: red;
 	margin: 10px;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
 }
 nav li a:hover {
 	text-decoration: none;
-	color: lightgrey;
+	color: darkred;
 }
 
 
