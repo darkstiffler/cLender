@@ -1,7 +1,6 @@
 class UsersController < ApplicationController
-def index
-    @users = User.all
-  end
+	def index
+	end
 
   # Get /users/:id - display detail for user <id>
   def show
@@ -17,13 +16,7 @@ def index
   end
 
   def create
-    @user = User.create user_params
-
-    # this will redirect the user    
-     if @user
-      redirect_to users_path, status: 303
-    else
-      render :new
-    end
+    @user = User.create
   end
+  
 end
