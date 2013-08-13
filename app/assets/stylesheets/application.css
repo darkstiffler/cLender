@@ -16,16 +16,12 @@
 
 
 
-
-
 #top_bar {
 	box-shadow: 5px 5px 10px black;
 	height: 55px;
 	background-color: black;
 	text-align: right;
-}
-.red {
-	background-color: red;
+	z-index: 10;
 }
 nav li {
 	position: relative;
@@ -43,16 +39,6 @@ nav li a:hover {
 	text-decoration: none;
 	color: darkred;
 }
-#landing_page {
-	background-color: black;
-	color: red;
-	position: relative;
-	top: 100px;
-	width: 500px;
-	margin: 0 auto;
-	padding: 20px;
-	border-radius: 20px;
-	box-shadow: 5px 5px 10px black;
-}
+
 
 
