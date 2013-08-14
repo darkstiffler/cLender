@@ -8,4 +8,5 @@ class CarModel
   field :name, type: String
   field :doors, type: Integer
   field :body_style, type: String
+  
 end
