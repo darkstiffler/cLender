@@ -7,6 +7,5 @@ CLender::Application.routes.draw do
   resources :car_make
   resources :car_model
 
-  get 'users/login' => "users#login"
-
+  get '/login' => 'users#login'
 end

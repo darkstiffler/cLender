@@ -24,8 +24,7 @@ class UsersController < ApplicationController
       :website, 
       :born_on,
       :location) 
-
-    redirect_to users_path
+    redirect_to users_path 
   end
 
   def destroy
