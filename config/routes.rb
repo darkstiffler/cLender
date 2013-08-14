@@ -1,7 +1,7 @@
 CLender::Application.routes.draw do
 
-  resources :users
-
   root "site#index"
+  resources :users
+  get 'users/login' => "users#login"
 
 end
