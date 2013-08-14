@@ -17,9 +17,13 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.create
+    @user = User.create params.require(:user).permit( :email, 
+      :user_name, 
+      :website, 
+      :born_on,
+      :location) 
 
-    redirect_to root_path
+    redirect_to users_path
   end
 
   def destroy

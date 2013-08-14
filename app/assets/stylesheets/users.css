@@ -1,0 +1,15 @@
+#new_user_form {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	position: relative;
+	top: 50px;
+	margin: 0 auto;
+	width: 200px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px black;
+}
+#show_users {
+	background-color: lightgrey;
+	padding: 50px;
+}

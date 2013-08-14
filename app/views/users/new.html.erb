@@ -1,17 +1,19 @@
-<%= form_for @user, html: { autocomplete: :off } do |f| %>
-  <p>
-    <%= f.label :user_name %>
-    <%= f.text_field :user_name %><br>
-    <%= f.label :email%>
-    <%= f.email_field :email %><br>
-    <%= f.label :website %>
-    <%= f.url_field :website %><br>
-    <%= f.label :born_on %>
-    <%= f.date_field :born_on %><br>
-    <%= f.label :location %>
-    <%= f.text_field :location %><br>
+<div id="new_user_form">
+    <h3>Add your account info!</h3>
+    <%= form_for @user, html: { autocomplete: :off } do |f| %>
+      <p>
+        <%= f.label :user_name %>
+        <%= f.text_field :user_name %><br>
+        <%= f.label :email%>
+        <%= f.email_field :email %><br>
+        <%= f.label :website %>
+        <%= f.url_field :website %><br>
+        <%= f.label :born_on %>
+        <%= f.date_field :born_on %><br>
+        <%= f.label :location %>
+        <%= f.text_field :location %><br>
+        <%= f.submit %>
+      </p>
 
-    <%= f.submit %>
-  </p>
-
-<% end %>
+    <% end %>
+</div>
