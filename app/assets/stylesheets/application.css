@@ -21,7 +21,6 @@
 	height: 55px;
 	background-color: black;
 	text-align: right;
-	z-index: 10;
 }
 nav li {
 	position: relative;
@@ -30,15 +29,10 @@ nav li {
 }
 nav li a {
 	font-size: 20px;
-	color: red;
+	color: white;
 	margin: 10px;
-	-webkit-transition: all .5s ease-in-out;
-	transition: all .5s ease-in-out;
 }
-nav li a:hover {
-	text-decoration: none;
-	color: darkred;
-}
+
 
 
 
