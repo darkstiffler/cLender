@@ -5,6 +5,7 @@ class Car
   field :price, type: Integer
   field :milage, type: Integer
 
+  belongs_to :car_model
   belongs_to :car_make
   belongs_to :user
 
