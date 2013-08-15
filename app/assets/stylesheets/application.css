@@ -22,7 +22,9 @@
 	background-color: black;
 	color: white;
 }
-
+.indent {
+	text-indent: 20px;
+}
 #top_bar {
 	box-shadow: 5px 5px 10px black;
 	height: 55px;
