@@ -1,5 +1,11 @@
 CLender::Application.routes.draw do
 
+  get "cars/index"
+  get "cars/create"
+  get "cars/new"
+  get "cars/show"
+  get "cars/update"
+  get "cars/destroy"
   root "site#index"
 
   resources :users
