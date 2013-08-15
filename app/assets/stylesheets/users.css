@@ -1,6 +1,8 @@
 #new_user_form {
 	padding: 20px;
 	margin: 0 auto;
+	background-color: black;
+	color: white;
 	width: 700px;
 	border: 2px solid black;
 	border-radius: 10px;
