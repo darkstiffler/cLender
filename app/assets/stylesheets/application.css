@@ -32,6 +32,9 @@ nav li a {
 	color: white;
 	margin: 10px;
 }
+nav li a:hover {
+	text-decoration: none;
+}
 
 
 
