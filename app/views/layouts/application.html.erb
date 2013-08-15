@@ -3,7 +3,7 @@
 <head>
 
   <title>CLender</title>
-  <%= stylesheet_link_tag    "application", media: "all" %>
+  <%= stylesheet_link_tag  "application", media: "all" %>
   <%= javascript_include_tag "application" => true %>
   <%= csrf_meta_tags %>
 </head>
@@ -14,14 +14,14 @@
 		<nav>
 			<ul class="pull-right">
 				<li><a href="/">Home</a></li>
-				<li><a href="/login">Log In</a></li>
+				<li><a href="#">Log In</a></li>
 				<li><a href="/users/new">Sign Up</a></li>
 			</ul>
 		</nav>
 	</div>
-	<br>
+
 	<%= yield %>
-	<br>
+
 	<div id="footer">
 		<p>&copy; 2013 Ethan G. Stiffelman Development. All rights Reserved.</p>
 	</div>

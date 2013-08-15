@@ -1,2 +1,12 @@
-<h1>Cars#index</h1>
-<p>Find me in app/views/cars/index.html.erb</p>
+<br>
+<div id="cars_list">
+	<% @cars.each do |c| %>
+	<b>Make</b>: <%= c.car_make %>
+	<b>Model</b>: <%= c.car_model %>
+	<b>Price</b>: $<%= c.price %>
+	<b>Miles</b>:<%= c.mileage %>
+	<%= link_to "Rent", c, class: "btn btn-sm btn-primary" %>
+	<br>
+	<% end %>
+	<%= link_to "Add new Car", new_car_path, class: "btn btn-md btn-primary" %>
+</div>
