@@ -4,7 +4,7 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-5">
-			<h3>Please add your car's info in the following form, remember precision information will allow people to better find your automobile! Thank you!</h3>
+			<h4>Please add your car's info in the following form, remember precision information will allow people to better find your automobile! Thank you!</h4>
 		</div>
 		<div class="col-lg-7">
 			<%= form_for @car do |c| %>
@@ -13,6 +13,13 @@
 			<br>
 			<%= c.label :car_model %>
 			<%= c.text_field :car_model %>
+			<br>
+			<%= c.label :mileage %>
+			<%= c.text_field :mileage %>
+			<br>
+			<%= c.label :price %>
+			<%= c.text_field :price %>
+			<br>
 			<br>
 			<%= c.submit %>
 			<% end %>

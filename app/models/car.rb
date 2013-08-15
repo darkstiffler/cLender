@@ -3,7 +3,7 @@ class Car
   include Mongoid::Timestamps
   
   field :price, type: Integer
-  field :milage, type: Integer
+  field :mileage, type: Integer
 
   belongs_to :car_model
   belongs_to :car_make
