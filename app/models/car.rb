@@ -1,5 +1,7 @@
 class Car
 
+	# right now the car  and user model are working only.
+
   include Mongoid::Document
   include Mongoid::Timestamps
   
