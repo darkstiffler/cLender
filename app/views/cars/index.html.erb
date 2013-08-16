@@ -1,11 +1,12 @@
 <br>
-<div id="cars_list">
+<div id="cars_list" class="bubble">
 	<% @cars.each do |c| %>
 	<b>Make</b>: <%= c.car_make %>
 	<b>Model</b>: <%= c.car_model %>
 	<b>Price</b>: $<%= c.price %>
 	<b>Miles</b>:<%= c.mileage %>
-	<%= link_to "Rent", c, class: "btn btn-sm btn-primary" %>
+	<%= link_to "Rent this "+c.car_model, c, class: "btn btn-sm btn-primary" %>
+	<br>
 	<br>
 	<% end %>
 	<%= link_to "Add new Car", new_car_path, class: "btn btn-md btn-primary" %>

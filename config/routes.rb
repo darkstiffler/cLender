@@ -6,6 +6,7 @@ CLender::Application.routes.draw do
   get "cars/show"
   get "cars/update"
   get "cars/destroy"
+  
   root "site#index"
 
   resources :users
