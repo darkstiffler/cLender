@@ -1,6 +1,10 @@
 .add_car {
 	width: 800px;
 }
-#cars_list {
-	width: auto;
+.list {
+	width: 900px;
 }
+/*
+#info {
+	display: inline;
+}*/

@@ -1,16 +1,7 @@
-#new_user_form {
-	padding: 20px;
-	margin: 0 auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	background-color: black;
-	color: white;
-	width: 700px;
-	border: 2px solid black;
-	border-radius: 10px;
-	box-shadow: 5px 5px 10px black;
+.new_user {
+	width: 600px;
+	padding: 30px;
 }
 #show_users {
-	background-color: lightgrey;
 	padding: 50px;
 }

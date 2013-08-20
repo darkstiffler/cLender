@@ -1,4 +1,4 @@
-<!-- <div class="bubble">
+<div class="bubble list">
 	<% @cars.each do |car| %>
 	
 	<b>Start</b>: <%= car.start_date %>
@@ -12,19 +12,45 @@
 	<br>
 	<% end %>
 	<%= link_to "Add new Car", new_car_path, class: "btn btn-md btn-primary" %>
-</div> -->
-<div id="info" class="row indent">
+</div>
+<!-- <div class="row indent">
 	<h1>Find that car!</h1>
 </div>
-<div class="row indent">
-	<div class="col-sm-2">
+<div id="info" class="row">
+	<div class="col-lg-2">
 		<h3>Make</h3>
 		<% @cars.each do |c| %>
 		<%= c.car_make %>
 		<br>
 		<% end %>
 	</div>
-	<div class="col-sm-2">
+	<div class="col-lg-2">
+		<h3>Model</h3>
+		<% @cars.each do |c| %>
+		<%= c.car_model %>
+		<br>
+		<% end %>
 	</div>
-</div>
-
+	<div class="col-lg-2">
+		<h3>Price</h3>
+		<% @cars.each do |c| %>
+		$ <%= c.price %>
+		<br>
+		<% end %>
+	</div>
+	<div class="col-lg-2">
+		<h3>Mileage</h3>
+		<% @cars.each do |c| %>
+		<%= c.mileage %>
+		<br>
+		<% end %>
+	</div>
+	<div class="col-lg-2">
+		<h3>Dates</h3>
+		<% @cars.each do |c| %>
+		<%= c.start_date %> ===>
+		<%= c.end_date %>
+		<br>
+		<% end %>
+	</div>
+</div> -->

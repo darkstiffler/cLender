@@ -1,7 +1,13 @@
 <div id="show_users">
 	<h1>All users</h1>
-		<% @users.each do |user| %>
-		<%= user.user_name  %> <br>
-		<%= user.email %>
+		<% @users.each do |u| %>
+		User Name: <%= u.user_name  %> <br>
+		Email: <%= u.email %><br>
+		Website: <%= u.website %><br>
+		Birthday: <%= u.born_on %><br>
+		Location: <%= u.location %>
+		<br>
+		======================================================
+		<br>
 		<% end %>
 </div>
