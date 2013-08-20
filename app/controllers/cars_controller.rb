@@ -1,4 +1,5 @@
 class CarsController < ApplicationController
+
 	
   def index
     @cars = Car.all
@@ -11,8 +12,8 @@ class CarsController < ApplicationController
       :mileage,
       :start_date,
       :end_date,
-      :price
-      )
+      :price)
+
       redirect_to cars_path 
   end
 

@@ -1,11 +1,13 @@
 <br>
 <div id="cars_list" class="bubble">
-	<% @cars.each do |c| %>
-	<b>Make</b>: <%= c.car_make %>
-	<b>Model</b>: <%= c.car_model %>
-	<b>Price</b>: $<%= c.price %>
-	<b>Miles</b>:<%= c.mileage %>
-	<%= link_to "Rent this "+c.car_model, c, class: "btn btn-sm btn-primary" %>
+	<% @cars.each do |car| %>
+	<b>Start</b>: <%= car.start_date %>
+	<b>End</b>: <%= car.end_date %>
+	<b>Make</b>: <%= car.car_make %>
+	<b>Model</b>: <%= car.car_model %>
+	<b>Price</b>: $<%= car.price %>
+	<b>Miles</b>:<%= car.mileage %>
+	<%= link_to "Rent this "+car.car_model, car, class: "btn btn-sm btn-primary" %>
 	<br>
 	<br>
 	<% end %>

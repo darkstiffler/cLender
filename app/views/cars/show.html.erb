@@ -1,1 +1,19 @@
-<%= @car.inspect %>
+<h1>More info on this: <%= @car.car_model %> </h1>
+	<ul>
+		<li><h3>Make: <%= @car.car_make %></h3></li>
+		<li><h3>Model: <%= @car.car_model %></h3></li>
+		<li><h3>Mileage: <%= @car.mileage %></h3></li>
+		<li><h3>Price: <%= @car.price %></h3></li>
+	</ul>
+	<br>
+	<%= link_to "Back", cars_path, class: "btn btn-md btn-primary" %>    
+	<br>
+	<br>
+
+
+
+
+
+
+
+
