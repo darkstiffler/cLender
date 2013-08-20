@@ -5,12 +5,11 @@
 		<li><h3>Mileage: <%= @car.mileage %></h3></li>
 		<li><h3>Price: <%= @car.price %></h3></li>
 	</ul>
-	<br>
-	<%= link_to "Back", cars_path, class: "btn btn-md btn-primary" %>    
-	<br>
-	<br>
-
-
+	<h2>Want to learn more?</h2>
+	<%= link_to "More Info", "http://google.com", class: "btn btn-md btn-primary" %>
+	or
+	<%= link_to "Back", cars_url, class: "btn btn-md btn-primary" %>
+	
 
 
 

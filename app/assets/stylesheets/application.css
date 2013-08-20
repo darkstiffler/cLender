@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 #top_bar {
 	box-shadow: 5px 5px 10px black;
-	height: 55px;
+	height: 80px;
 	background-color: black;
 	text-align: right;
 }
