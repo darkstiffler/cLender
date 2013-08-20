@@ -7,6 +7,8 @@ class Car
   
   field :price, type: Integer
   field :mileage, type: Integer
+  field :start_date, type: String
+  field :end_date, type: String
   field :car_make, type: String
   field :car_model, type: String
 
