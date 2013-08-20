@@ -8,6 +8,11 @@
 		</div>
 		<div class="col-lg-7">
 			<%= form_for @car do |c| %>
+			<%= c.label :start_date %>
+			<%= c.date_field :start_date%>
+			<br>
+			<%= c.label :end_date %>
+			<%= c.date_field :end_date %>
 			<%= c.label :car_make %>
 			<%= c.text_field :car_make %>
 			<br>

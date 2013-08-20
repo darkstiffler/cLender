@@ -9,6 +9,8 @@ class CarsController < ApplicationController
       :car_make,
       :car_model,
       :mileage,
+      :start_date,
+      :end_date,
       :price
       )
       redirect_to cars_path 
