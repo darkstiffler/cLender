@@ -8,6 +8,7 @@ CLender::Application.routes.draw do
   get "cars/update"
   get "cars/destroy"
   get '/login' => 'users#login'
+  get '/admin' => 'site#admin'
 
   # site root {where the page goes when it loads up localhost:x }
   root "site#index"

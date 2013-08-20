@@ -1,11 +1,14 @@
-<h1>More info on this: <%= @car.car_model %> </h1>
-	<ul>
-		<li><h3>Make: <%= @car.car_make %></h3></li>
-		<li><h3>Model: <%= @car.car_model %></h3></li>
-		<li><h3>Mileage: <%= @car.mileage %></h3></li>
-		<li><h3>Price: <%= @car.price %></h3></li>
-	</ul>
-	<h2>Want to learn more?</h2>
-	<%= link_to "More Info", "http://google.com", class: "btn btn-md btn-primary" %>
-	or
-	<%= link_to "Back", cars_url, class: "btn btn-md btn-primary" %>
+<div class="bubble show_car">
+	<h1>More info on this: <%= @car.car_model %> </h1>
+		<ul>
+			<li><h3>Make: <%= @car.car_make %></h3></li>
+			<li><h3>Model: <%= @car.car_model %></h3></li>
+			<li><h3>Mileage: <%= @car.mileage %></h3></li>
+			<li><h3>Price: $ <%= @car.price %></h3></li>
+			<li><h3>Available from: <%= @car.start_date %> until <%= @car.end_date %></h3></li>
+		</ul>
+		<h2>Want to learn more?</h2>
+		<%= link_to "More Info", "http://google.com", class: "btn btn-md btn-primary" %>
+		or
+		<%= link_to "Back", cars_url, class: "btn btn-md btn-primary" %>
+</div>

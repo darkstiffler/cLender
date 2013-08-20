@@ -15,6 +15,9 @@
  */
 @import url(http://fonts.googleapis.com/css?family=Fauna+One);
 
+body {
+	background-image: url(http://stylegerms.com/wp-content/uploads/2013/06/backgrounds-blue-abstract-cartoon-wallpapers-wallpaper-array-wallwuzz-hd-wallpaper-2661.jpg);
+}
 .explanation {
 	font-size: 30px;
 }
@@ -24,7 +27,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-
+#footer {
+	position: fixed;
+	bottom: 1px;
+	font-family: "Fauna One";
+	height: 20px;
+	background-color: black;
+	color: white;
+}
 .bubble {
 	padding: 20px;
 	border-radius: 10px;
@@ -32,7 +42,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	margin: 0 auto;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	background-color: black;
+	background-color: rgba(0,0,0,0.8);
 	color: white;
 }
 .indent {
@@ -42,7 +52,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	box-shadow: 5px 5px 10px black;
 	height: 80px;
 	background-color: black;
-	text-align: right;
 }
 #options {
 	width: 500px;
