@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-
-
-  protect_from_forgery with: :exception
+	# validates the authenticity?
+	
+	protect_from_forgery with: :exception
 end
