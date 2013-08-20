@@ -13,14 +13,18 @@
 	<% end %>
 	<%= link_to "Add new Car", new_car_path, class: "btn btn-md btn-primary" %>
 </div> -->
-
-<h2>Model</h2>
-	<%= @cars.each do |car|%>
-	<%= car.car_model %>
-	<ol>
-
-	</ol>	
-
-<% end %>
-
+<div id="info" class="row indent">
+	<h1>Find that car!</h1>
+</div>
+<div class="row indent">
+	<div class="col-sm-2">
+		<h3>Make</h3>
+		<% @cars.each do |c| %>
+		<%= c.car_make %>
+		<br>
+		<% end %>
+	</div>
+	<div class="col-sm-2">
+	</div>
+</div>
 
