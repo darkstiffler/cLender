@@ -1,5 +1,4 @@
-<br>
-<div id="cars_list" class="bubble">
+<!-- <div class="bubble">
 	<% @cars.each do |car| %>
 	
 	<b>Start</b>: <%= car.start_date %>
@@ -8,9 +7,20 @@
 	<b>Model</b>: <%= car.car_model %>
 	<b>Price</b>: $<%= car.price %>
 	<b>Miles</b>:<%= car.mileage %>
-	<%= link_to "Rent this "+car.car_model, car, class: "btn btn-sm btn-primary" %>
+	<%= link_to "Rent this "+car.car_model, car, class: "btn btn-sm btn-primary pull-right" %>
 	<br>
 	<br>
 	<% end %>
 	<%= link_to "Add new Car", new_car_path, class: "btn btn-md btn-primary" %>
-</div>
+</div> -->
+
+<h2>Model</h2>
+	<%= @cars.each do |car|%>
+	<%= car.car_model %>
+	<ol>
+
+	</ol>	
+
+<% end %>
+
+
